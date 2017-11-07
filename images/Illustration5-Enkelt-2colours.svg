@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 126">
+  <g fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round" transform="translate(1 1)">
+    <path stroke="#32313C" stroke-width="2" d="M82.9412493 124L98.1155274 124C103.022286 124 107 120.027865 107 115.127988L107 107.328042 40.4826164 107.328042 40.4826164 115.770251C40.4826164 117.952916 39.6143382 120.046185 38.0687931 121.589562 36.523248 123.13294 34.427039 124 32.2413082 124L32.2413082 124C27.6897594 124 24 120.315416 24 115.770251L24 24 99.9031821 24 99.9031821 95.4327578M61 43L90 43"/>
+    <path stroke="#2AECAE" stroke-width="2" d="M35,43 L61,43"/>
+    <circle cx="61.5" cy="43.5" r="4.5" fill="#FFF" fill-rule="nonzero" stroke="#3AEBAF" stroke-width="2"/>
+    <path stroke="#32313C" stroke-width="2" d="M77,63 L90,63"/>
+    <path stroke="#2AECAE" stroke-width="2" d="M35,63 L72,63"/>
+    <circle cx="72.5" cy="63.5" r="4.5" fill="#FFF" fill-rule="nonzero" stroke="#3AEBAF" stroke-width="2"/>
+    <path stroke="#32313C" stroke-width="2" d="M47,82 L90,82"/>
+    <path stroke="#2AECAE" stroke-width="2" d="M35,82 L47,82"/>
+    <circle cx="47.5" cy="82.5" r="4.5" fill="#FFF" fill-rule="nonzero" stroke="#3AEBAF" stroke-width="2"/>
+    <path stroke="#2AECAE" stroke-width="2" d="M103 11.5C107.142136 11.5 110.5 14.8578644 110.5 19 110.5 14.8578644 113.857864 11.5 118 11.5 113.857864 11.5 110.5 8.14213562 110.5 4 110.5 5.98912367 109.709824 7.89677802 108.303301 9.30330086 106.896778 10.7098237 104.989124 11.5 103 11.5L103 11.5zM0 36C2.20908174 38.2091627 2.20908174 41.7908373 2.98933837e-15 44 2.20916272 41.7909183 5.79083728 41.7909183 8 44 5.79091826 41.7908373 5.79091826 38.2091627 8 36 5.79083728 38.2090817 2.20916272 38.2090817 0 36zM77 4L85 4M81 0L81 8"/>
+  </g>
+</svg>
