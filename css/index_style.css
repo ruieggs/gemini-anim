@@ -73,7 +73,6 @@ ul li:hover a {
 	padding-top: 150px;
 	padding-bottom: 150px;
 	background-image: url(../images/hero.jpg);
-.jpg;
 }
 .light {
 	font-weight: bold;
@@ -146,7 +145,7 @@ ul li:hover a {
 	position: relative;
 }
 .parallax {
-	color: #32313c;
+	color: #4a4a4a;
 	font-family: "jungkaregular", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
 	font-size: 1.5em;
 	text-align: left;
@@ -453,7 +452,7 @@ ul li:hover a {
 	display: none;
 }
 
-/* Mobile - WIP! */
+/* Mobile  */
 @media (max-width: 414px) {
 
 .body{
@@ -636,8 +635,12 @@ nav ul li {
 }
 }
 
-/* Small Tablets - WIP! */
-@media (min-width: 321px)and (max-width: 767px) {
+/* Small Tablets  */
+@media (min-width: 321px)and (max-width: 768px) {
+.body{
+	width:device-width;
+	overflow: hidden;
+}
 .logo {
 	width: 100%;
 	text-align: center;
@@ -645,22 +648,111 @@ nav ul li {
 	margin-right: 0px;
 	margin-bottom: 0px;
 	margin-left: 0px;
-	color: #043745;
 }
 .container header nav {
+	width: 100%;
 	margin-top: 0px;
 	margin-right: 0px;
 	margin-bottom: 0px;
 	margin-left: 0px;
-	width: 100%;
 	float: none;
-	overflow: auto;
-	display: inline-block;
-	background: #52bad5;
+	display: none;
+}
+
+.content{
+	overflow: hidden;
+	width:100%;
+	height: 3800px;
+}
+	
+.gallery {
+	display: block;
+	float:none;
+}
+
+.journey{
+	display:block;
+	float:none;
+
+}
+
+.number1,
+.number2,
+.number3,
+.number4,
+.number5,
+.number6{
+	position: relative;
+	float:none;
+	background-color: transparent;
+    margin: 20px auto 50px auto;
+	top:0;
+	width: 15%;
+	bottom:50px;
+	left:0;
+    border:0;
+    padding: 0;
+}
+
+.element1,
+.element2,
+.element3,
+.element4,
+.element5,
+.element6{
+	position: relative;
+	float:none;
+    margin: 250px auto 0px 35%;
+	left:0px;
+	top:0px;
+	right:0;
+    width:80%;
+    border:0;
+}
+
+.text-container1,
+.text-container2,
+.text-container3,
+.text-container4,
+.text-container5,
+.text-container6{
+	position: relative;
+	float:none;
+    margin: 50px auto 150px auto;
+	left:0px;
+	top:0px;
+	right:0;
+    width:50%;
+    border:0;
+}	
+	
+.element_title{
+	display: block;
+	text-align: center;
+    margin-right:0;
+    width:auto;
+    border:0;
+}
+.element_text{
+	display: block;
+	text-align: center;
+    margin-right:0;
+    width:auto;
+    border:0;
+}
+.thumbnail {
+ 
+ margin: 50px auto 150px auto;
+ padding-left: 2%;
+ padding-right: 2%;
+ width: 80%;
+}
+
+.bezier {
+	display: none;
+	visibility: hidden;
 }
 header nav ul {
-	padding: 0px;
-	float: none;
 }
 nav ul li {
 	margin-top: 0px;
@@ -669,25 +761,27 @@ nav ul li {
 	margin-left: 0px;
 	width: 100%;
 	text-align: center;
-	padding-top: 8px;
-	padding-bottom: 8px;
 }
 .text_column {
 	width: 100%;
-	text-align: left;
+	text-align: justify;
 	padding-top: 0px;
 	padding-right: 0px;
 	padding-bottom: 0px;
 	padding-left: 0px;
 }
-.thumbnail {
-	width: 100%;
-}
+
 .footer_column {
 	width: 100%;
 	margin-top: 0px;
 }
+
+.banner {
+ background-color: blue;
+
+}
 .parallax {
+	background-color: #ffffff;
 	text-align: center;
 	margin-top: 0px;
 	margin-right: 0px;
@@ -698,54 +792,29 @@ nav ul li {
 	padding-bottom: 0px;
 	padding-left: 0px;
 	width: 100%;
-	font-size: 18px;
+	font-size: 24px;
 }
 .parallax_description {
+	background-color: #ffffff;
+	text-align: center;
+	margin: 10px auto 20px auto
 	padding-top: 0px;
 	padding-right: 0px;
 	padding-bottom: 0px;
 	padding-left: 0px;
-	margin-top: 30%;
-	margin-right: 0px;
-	margin-bottom: 0px;
-	margin-left: 0px;
-	float: none;
-	width: 100%;
+	width: 90%;
+}
+
+.tagline {
+	margin-top: 20px;
+	line-height: 22px;
+}
+.hero_header {
+	padding-left: 10px;
+	padding-right: 10px;
+	line-height: 22px;
 	text-align: center;
 }
-.thumbnail {
-	width: 50%;
-}
-.parallax {
-	margin-top: 0px;
-	margin-right: 0px;
-	margin-bottom: 0px;
-	margin-left: 0px;
-	padding-right: 0px;
-	padding-bottom: 0px;
-	padding-left: 0px;
-	padding-top: 20%;
-}
-.parallax_description {
-	margin-top: 0px;
-	margin-right: 0px;
-	margin-bottom: 0px;
-	margin-left: 0px;
-	width: 100%;
-	padding-top: 30px;
-}
-.banner {
-	padding-left: 20px;
-	padding-right: 20px;
-}
-.footer_column {
-	width: 100%;
-}
-}
-.line {
-  stroke: #000000;
-  stroke-width: 3;
-  stroke-miterlimit: 10;
 }
 /* Small Desktops - - WIP! */
 @media (min-width: 768px) and (max-width: 1096px) {
