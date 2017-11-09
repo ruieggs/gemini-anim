@@ -1,7 +1,7 @@
 @charset "UTF-8";
 /* Body */
 body {
-	font-family: "jungkaregular", "Myriad Pro", Helvetica, Arial, "sans-serif";
+	font-family: "Jungka-Book", "Myriad Pro", Helvetica, Arial, "sans-serif";
 	background-color: #f2f2f2;
 	max-width: 1440px;
 	font-style: normal;
@@ -123,7 +123,7 @@ ul li:hover a {
 	margin-bottom: 15px;
 	margin-left: 5px;
 	color: #32313c;
-	font-family: "jungkaregular", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-family: "Jungka-Book", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
 	font-size: 1.5em;
 }
 .gallery .thumbnail p {
@@ -131,7 +131,7 @@ ul li:hover a {
 	margin-right: 0px;
 	margin-bottom: 0px;
 	margin-left: 0px;
-	font-family: "jungkaregular", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-family: "Jungka-Book", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
 	color: #32313c;
 	font-size: 1.0em;
 }
@@ -147,7 +147,7 @@ ul li:hover a {
 }
 .parallax {
 	color: #32313c;
-	font-family: "jungkaregular", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-family: "Jungka-Book", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
 	font-size: 1.5em;
 	text-align: left;
     margin-left: 5%;
@@ -157,7 +157,7 @@ ul li:hover a {
 }
 .parallax_description {
 	color: #32313c;
-	font-family: "jungkaregular", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-family: "Jungka-Book", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
 	font-size: 1.0em;
 	text-align: left;
 	margin-left: 5%;
@@ -344,7 +344,7 @@ ul li:hover a {
 .number1 {
 	position: absolute;
 	color: #2aecae;
-	font-family: "jungkaregular", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-family: "Jungka-Book", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
 	font-size: 4.0em;
 	font-weight: lighter;
 	margin-top: 0px;
@@ -360,7 +360,7 @@ ul li:hover a {
 .number2 {
 	position: absolute;
 	color: #2aecae;
-	font-family: "jungkaregular", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-family: "Jungka-Book", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
 	font-size: 4.0em;
 	text-align: left;
 	font-weight: lighter;
@@ -376,7 +376,7 @@ ul li:hover a {
 .number3 {
 	position: absolute;
 	color: #2aecae;
-	font-family: "jungkaregular", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-family: "Jungka-Book", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
 	font-size: 4.0em;
 	text-align: left;
 	font-weight: lighter;
@@ -389,7 +389,7 @@ ul li:hover a {
 .number4 {
 	position: absolute;
 	color: #2aecae;
-	font-family: "jungkaregular", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-family: "Jungka-Book", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
 	font-size: 4.0em;
 	text-align: left;
 	font-weight: lighter;
@@ -402,7 +402,7 @@ ul li:hover a {
 .number5 {
 	position: absolute;
 	color: #2aecae;
-	font-family: "jungkaregular", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-family: "Jungka-Book", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
 	font-size: 4.0em;
 	text-align: left;
 	font-weight: lighter;
@@ -416,7 +416,7 @@ ul li:hover a {
 .number6 {
 	position: absolute;
 	color: #2aecae;
-	font-family: "jungkaregular", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-family: "Jungka-Book", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
 	font-size: 4.0em;
 	text-align: left;
 	font-weight: lighter;
@@ -429,7 +429,7 @@ ul li:hover a {
 
 .element_title{
 	color: #32313c;
-	font-family: "jungkaregular", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-family: "Jungka-Regular", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
 	font-size: 1.5em;
 	text-align: left;
 	font-weight:500;
@@ -437,7 +437,7 @@ ul li:hover a {
 	vertical-align: top;
 }
 .element_text{
-	font-family: "jungkaregular", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-family: "Jungka-Book", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
 	font-size: 1em;
 	text-align: left;
 	color: #32313c;
@@ -481,7 +481,6 @@ ul li:hover a {
 .content{
 	overflow: hidden;
 	width:100%;
-	height: 3800px;
 }
 	
 .gallery {
@@ -492,55 +491,178 @@ ul li:hover a {
 .journey{
 	display:block;
 	float:none;
-
 }
 
-.number1,
-.number2,
-.number3,
-.number4,
-.number5,
-.number6{
+.number1{
 	position: relative;
-	float:none;
 	background-color: transparent;
-    margin: 50px auto 50px auto;
+	display:block;
+    margin: 50px auto 150px auto;
 	top:0;
-	width: 15%;
 	bottom:50px;
 	left:0;
     border:0;
     padding: 0;
 }
-
-.element1,
-.element2,
-.element3,
-.element4,
-.element5,
-.element6{
+.number2{
 	position: relative;
-	float:none;
+	background-color: transparent;
+	display:block;
+    margin: 50px auto 150px auto;
+	top:0;
+	bottom:50px;
+	left:0;
+    border:0;
+    padding: 0;
+}
+.number3{
+	position: relative;
+	background-color: transparent;
+	display:block;
+    margin: 50px auto 150px auto;
+	top:0;
+	bottom:50px;
+	left:0;
+    border:0;
+    padding: 0;
+}
+.number4{
+	position: relative;
+	background-color: transparent;
+	display:block;
+    margin: 50px auto 150px auto;
+	top:0;
+	bottom:50px;
+	left:0;
+    border:0;
+    padding: 0;
+}
+.number5{
+	position: relative;
+	background-color: transparent;
+	display:block;
+    margin: 50px auto 150px auto;
+	top:0;
+	bottom:50px;
+	left:0;
+    border:0;
+    padding: 0;
+}
+.number6{
+	position: relative;
+	background-color: transparent;
+	display:block;
+    margin: 50px auto 150px auto;
+	top:0;
+	bottom:50px;
+	left:0;
+    border:0;
+    padding: 0;
+}
+.element1{
+	position: relative;
+	display: block;
 	background-color: transparent;
 	width: 80%;
 	left: 0px;
-	top: 50px;
-	margin: 200px 20% 100px 20%;
+	top: 0px;
+	margin: 100px 10% 100px 10%;
+}
+.element2{
+	position: relative;
+	display: block;
+	background-color: transparent;
+	width: 80%;
+	left: 0px;
+	top: 0px;
+	margin: 100px 10% 100px 10%;
 }
 
-.text-container1,
-.text-container2,
-.text-container3,
-.text-container4,
-.text-container5,
-.text-container6{
+.element3{
 	position: relative;
-	float:none;
+	display: block;
+	background-color: transparent;
+	width: 80%;
+	left: 0px;
+	top: 0px;
+	margin: 100px 10% 100px 10%;
+}
+.element4{
+	position: relative;
+	display: block;
+	background-color: transparent;
+	width: 80%;
+	left: 0px;
+	top: 0px;
+	margin: 100px 10% 100px 10%;
+}
+.element5{
+	position: relative;
+	display: block;
+	background-color: transparent;
+	width: 80%;
+	left: 0px;
+	top: 0px;
+	margin: 100px 10% 100px 10%;
+}
+.element6{
+	position: relative;
+	display: block;
+	background-color: transparent;
+	width: 80%;
+	left: 0px;
+	top: 0px;
+	margin: 0px 10% 100px 10%;
+}
+.text-container1{
+	display:block;
     margin: 50px auto 150px auto;
 	left:0px;
 	top:0px;
 	right:0;
     width:80%;
+    border:0;
+}	
+.text-container2{
+	display:block;
+	float: none;
+    margin:30px;
+	left:0;
+    width:90%;
+    border:0;
+}	
+.text-container3{
+	display:block;
+    margin:30px;
+	left:0;
+    width:90%;
+    border:0;
+}	
+
+.text-container4{
+	display:block;
+    margin:30px;
+	left:0px;
+	top:0px;
+    width:90%;
+    border:0;
+}	
+
+.text-container5{
+	display:block;
+    margin:30px;
+	left:0px;
+	top:0px;
+    width:90%;
+    border:0;
+}
+.text-container6{
+	float: none;
+	display:block;
+    margin:30px auto;
+	left:0px;
+	top:0px;
+    width:90%;
     border:0;
 }	
 	
