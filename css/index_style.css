@@ -2,7 +2,7 @@
 /* Body */
 body {
 	font-family: "jungkaregular", "Myriad Pro", Helvetica, Arial, "sans-serif";
-	background-color: #f2f2f2;
+	background-color: #d8d8d8;
 	max-width: 1440px;
 	font-style: normal;
 	font-weight: 50;
@@ -86,25 +86,18 @@ ul li:hover a {
 	text-transform: uppercase;
 	letter-spacing: 1px;
 }
-/* About Section */
 
+/*  Gallery */
 
-/* Stats Gallery */
-.stats {
-	color: #717070;
-	margin-bottom: 5px;
-}
 .gallery {
 	text-align: center;
 	clear: both;
 	display: inline-block;
 	width: 100%;
-	background-color: #FFFFFF;
-	/* [disabled]min-width: 400px;
-*/
-	padding-bottom: 35px;
+	background-color: #F7F7F7;
+	padding-bottom: 15px;
 	padding-top: 0px;
-	margin-top: -5px;
+	margin-top: 0px;
 	margin-bottom: 0px;
 	display: flex;
 	justify-content: center;
@@ -113,13 +106,13 @@ ul li:hover a {
 	clear: both;
 	width: 33%;
 	text-align: center;
-	margin: 100px 5% 150px 5%;
+	margin: 100px 5% 100px 5%;
 }
 
 .gallery .thumbnail h4 {
 	margin-top: 35px;
 	margin-right: 5px;
-	margin-bottom: 15px;
+	margin-bottom: 5px;
 	margin-left: 5px;
 	color: #32313c;
 	font-family: "jungkaregular", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
@@ -137,8 +130,8 @@ ul li:hover a {
 
 /* Parallax Section */
 .banner {
-	background-color: #fff;
 	height: 200px;
+	background-color: #FFFFFF;
 }
 .svg {
 	margin-top: 20px;
@@ -146,16 +139,18 @@ ul li:hover a {
 }
 .parallax {
 	color: #4a4a4a;
+	background-color: #ffffff;
 	font-family: "jungkaregular", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
 	font-size: 1.5em;
 	text-align: left;
     margin-left: 5%;
-	padding-top: 0px;
+	padding-top: 50px;
 	letter-spacing: 2px;
 	margin-top: 0px;
 }
 .parallax_description {
 	color: #32313c;
+	background-color: #ffffff;
 	font-family: "jungkaregular", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
 	font-size: 1.0em;
 	text-align: left;
@@ -383,6 +378,7 @@ ul li:hover a {
 	margin-left: 50px;
 	left: -33%;
 	z-index: 1;
+	background-color: #ffffff;
 	top: -12px;
 }
 .number4 {
@@ -396,6 +392,7 @@ ul li:hover a {
 	margin-left: 0px;
 	left: -17%;
 	z-index: 1;
+	background-color: #ffffff;
 	top: -11px;
 }
 .number5 {
@@ -423,6 +420,7 @@ ul li:hover a {
 	margin-left: -10px;
 	left: -16%;
 	z-index: 1;
+	background-color: #ffffff;
 	top: -15px;
 }
 
@@ -452,7 +450,7 @@ ul li:hover a {
 	display: none;
 }
 
-/* Mobile  */
+/* Mobile ------------------------------------  */
 @media (max-width: 414px) {
 
 .body{
@@ -484,8 +482,15 @@ ul li:hover a {
 }
 	
 .gallery {
+	background-color: #F7F7F7;
+	padding-top: 50px;
 	display: block;
 	float:none;
+}
+
+.thumbnail {
+ margin: 0px auto 50px auto;
+ width: 70%;
 }
 
 .journey{
@@ -501,16 +506,17 @@ ul li:hover a {
 .number5,
 .number6{
 	position: relative;
-	float:none;
+	float:left;
 	background-color: transparent;
-    margin: 50px auto 50px auto;
-	top:0;
-	width: 15%;
+    margin: 20px auto 50px auto;
+	top:-105px;
+	width: 10%;
 	bottom:50px;
-	left:0;
+	left:0px;
     border:0;
     padding: 0;
 }
+
 
 .element1,
 .element2,
@@ -520,11 +526,12 @@ ul li:hover a {
 .element6{
 	position: relative;
 	float:none;
-	background-color: transparent;
-	width: 80%;
-	left: 0px;
-	top: 50px;
-	margin: 200px 20% 100px 20%;
+    margin: 150px auto 0px auto;
+	left:0px;
+	top:0px;
+	right:0;
+    width:50%;
+    padding: 0px;
 }
 
 .text-container1,
@@ -538,16 +545,17 @@ ul li:hover a {
     margin: 50px auto 150px auto;
 	left:0px;
 	top:0px;
-	right:0;
+	right:0px;
     width:80%;
-    border:0;
+    border:0px;
 }	
 	
 .element_title{
 	display: block;
 	text-align: center;
-    margin-right:0;
-    width:auto;
+    margin: 0;
+    padding: 0;
+    width:90%;
     border:0;
 }
 .element_text{
@@ -556,13 +564,6 @@ ul li:hover a {
     margin-right:0;
     width:auto;
     border:0;
-}
-.thumbnail {
- 
- margin: 50px auto 150px auto;
- padding-left: 2%;
- padding-right: 2%;
- width: 90%;
 }
 
 .bezier {
@@ -594,13 +595,15 @@ nav ul li {
 	width: 100%;
 	margin-top: 0px;
 }
+.banner {
+  width: 100%;
+  margin-top: 0px
+  background-color: red;
+}
 .parallax {
 	text-align: center;
-	margin-top: 0px;
-	margin-right: 0px;
-	margin-bottom: 0px;
-	margin-left: 0px;
-	padding-top: 40%;
+	margin: 0px auto 20px auto;
+	padding-top: 50px;
 	padding-right: 0px;
 	padding-bottom: 0px;
 	padding-left: 0px;
@@ -608,21 +611,17 @@ nav ul li {
 	font-size: 18px;
 }
 .parallax_description {
+	background-color: #ffffff;
 	padding-top: 0px;
 	padding-right: 0px;
 	padding-bottom: 0px;
 	padding-left: 0px;
 	width: 90%;
-	margin-top: 25px;
-	margin-right: 0px;
-	margin-bottom: 0px;
-	margin-left: 12px;
+	margin: 0px auto 150px auto;
 	float: none;
 	text-align: center;
 }
-.banner {
 
-}
 .tagline {
 	margin-top: 20px;
 	line-height: 22px;
@@ -635,8 +634,8 @@ nav ul li {
 }
 }
 
-/* Small Tablets  */
-@media (min-width: 321px)and (max-width: 768px) {
+/* Small tablets  */
+@media (min-width: 415px)and (max-width: 1023px) {
 .body{
 	width:device-width;
 	overflow: hidden;
@@ -666,8 +665,32 @@ nav ul li {
 }
 	
 .gallery {
+	padding-top: 50px;
 	display: block;
 	float:none;
+}
+.banner {
+  width: 100%;
+}
+.parallax { 
+	text-align: center;
+	margin: 0px auto 20px auto;
+	padding-top: 50px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	width: 100%;
+	font-size: 18px;
+}
+.parallax_description {
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	width: 90%;
+	margin: 0px auto 150px auto;
+	float: none;
+	text-align: center;
 }
 
 .journey{
@@ -683,13 +706,13 @@ nav ul li {
 .number5,
 .number6{
 	position: relative;
-	float:none;
+	float:left;
 	background-color: transparent;
     margin: 20px auto 50px auto;
-	top:0;
-	width: 15%;
+	top:-105px;
+	width: 10%;
 	bottom:50px;
-	left:0;
+	left:0px;
     border:0;
     padding: 0;
 }
@@ -702,12 +725,13 @@ nav ul li {
 .element6{
 	position: relative;
 	float:none;
-    margin: 250px auto 0px 35%;
+    margin: 150px auto 0px auto;
 	left:0px;
 	top:0px;
 	right:0;
-    width:80%;
+    width:30%;
     border:0;
+    padding: 0px;
 }
 
 .text-container1,
@@ -721,16 +745,17 @@ nav ul li {
     margin: 50px auto 150px auto;
 	left:0px;
 	top:0px;
-	right:0;
-    width:50%;
-    border:0;
+	right:0px;
+    width:80%;
+    border:0px;
 }	
 	
 .element_title{
 	display: block;
 	text-align: center;
-    margin-right:0;
-    width:auto;
+    margin: 0;
+    padding: 0;
+    width:90%;
     border:0;
 }
 .element_text{
@@ -776,34 +801,6 @@ nav ul li {
 	margin-top: 0px;
 }
 
-.banner {
- background-color: blue;
-
-}
-.parallax {
-	background-color: #ffffff;
-	text-align: center;
-	margin-top: 0px;
-	margin-right: 0px;
-	margin-bottom: 0px;
-	margin-left: 0px;
-	padding-top: 40%;
-	padding-right: 0px;
-	padding-bottom: 0px;
-	padding-left: 0px;
-	width: 100%;
-	font-size: 24px;
-}
-.parallax_description {
-	background-color: #ffffff;
-	text-align: center;
-	margin: 10px auto 20px auto
-	padding-top: 0px;
-	padding-right: 0px;
-	padding-bottom: 0px;
-	padding-left: 0px;
-	width: 90%;
-}
 
 .tagline {
 	margin-top: 20px;
@@ -815,28 +812,373 @@ nav ul li {
 	line-height: 22px;
 	text-align: center;
 }
+
+
+/* Small desktops  */
+@media (min-width: 1024px)and (max-width: 1110px) {
+.body{
+	width:device-width;
+	overflow: hidden;
 }
-/* Small Desktops - - WIP! */
-@media (min-width: 768px) and (max-width: 1096px) {
-.text_column {
+/*  Gallery */
+
+.gallery {
+	text-align: center;
+	clear: both;
+	display: inline-block;
 	width: 100%;
+	background-color: #F7F7F7;
+	padding-bottom: 15px;
+	padding-top: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	display: flex;
+	justify-content: center;
 }
 .thumbnail {
-	width: 50%;
+	clear: both;
+	width: 33%;
+	text-align: center;
+	margin: 100px 5% 100px 5%;
 }
-.text_column {
-	width: 100%;
+
+.gallery .thumbnail h4 {
+	margin-top: 35px;
+	margin-right: 5px;
+	margin-bottom: 5px;
+	margin-left: 5px;
+	color: #32313c;
+	font-family: "jungkaregular", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-size: 1.5em;
+}
+.gallery .thumbnail p {
 	margin-top: 0px;
 	margin-right: 0px;
 	margin-bottom: 0px;
 	margin-left: 0px;
-	padding-top: 0px;
-	padding-right: 0px;
-	padding-bottom: 0px;
-	padding-left: 0px;
+	font-family: "jungkaregular", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	color: #32313c;
+	font-size: 1.0em;
 }
+
+/* Parallax Section */
 .banner {
-	margin-top: 0px;
-	padding-top: 0px;
+	height: 200px;
+	background-color: #FFFFFF;
 }
+.svg {
+	margin-top: 20px;
+	position: relative;
+}
+.parallax {
+	color: #4a4a4a;
+	background-color: #ffffff;
+	font-family: "jungkaregular", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-size: 1.5em;
+	text-align: left;
+    margin-left: 5%;
+	padding-top: 50px;
+	letter-spacing: 2px;
+	margin-top: 0px;
+}
+.parallax_description {
+	color: #32313c;
+	background-color: #ffffff;
+	font-family: "jungkaregular", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-size: 1.0em;
+	text-align: left;
+	margin-left: 5%;
+	width: 30%;
+	float: left;
+	font-weight: lighter;
+	line-height: 23px;
+	margin-bottom: 300px;
+}
+.content {
+  background-color: #fff;
+  height: 2500px ;
+  width:100%;
+}
+.journey {
+	width: 100%; 
+	margin-left: auto;
+	margin-right: auto;
+	position:relative;
+}
+
+.bezier {  
+	clear: both;
+	margin-top: -400px;
+	width:800px;
+	height:1745px;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	z-index: 0;
+
+}
+
+.element1 {
+	background-color: #fff;
+	float: left;
+	width: 300px;
+	left: 52%;
+	height: 150px;
+	z-index: 1;
+	position: absolute;
+	margin-top: 0px;
+	margin-left: -323px;
+	top: 100px;
+}
+.text-container1 {
+	background-color: #fff;
+	float: left;
+	width: 250px;
+	left: 52%;
+	height: 150px;
+	z-index: 1;
+	position: absolute;
+	margin-top: 0px;
+	margin-left: -285px;
+	top: 270px;
+}
+.element2 {
+	background-color: #fff;
+	float: left;
+	width: 215px;
+	height: 300px;
+	left: 61%;
+	height: 150px;
+	z-index: 1;
+	position: absolute;
+	margin-top: 189px;
+	margin-left: 89px;
+	top: 286px;
+}
+.text-container2 {
+	background-color: #fff;
+	float: left;
+	width: 200px;
+	left: 60%;
+	height: 150px;
+	z-index: 1;
+	position: absolute;
+	margin-top: 80px;
+	margin-left: 100px;
+	top: 570px;
+	padding-left: 10px;
+}
+.element3 {
+	background-color: #fff;
+	float: left;
+	width: 200px;
+	height: 300px;
+	left: 19%;
+	height: 150px;
+	z-index: 1;
+	position: absolute;
+	margin-top: 300px;
+	margin-left: 21px;
+	top: 392px;
+}
+.text-container3 {
+	background-color: #fff;
+	float: left;
+	width: 300px;
+	left: 27%;
+	height: 150px;
+	z-index: 1;
+	position: absolute;
+	margin-top: 80px;
+	margin-left: 100px;
+	top: 800px;
+}
+.element4 {
+	background-color: #fff;
+	float: left;
+	width: 300px;
+	height: 300px;
+	left: 19%;
+	height: 150px;
+	z-index: 1;
+	position: absolute;
+	margin-top: 200px;
+	margin-left: 21px;
+	top: 928px;
+}
+.text-container4 {
+	background-color: #fff;
+	float: left;
+	width: 300px;
+	left: 14%;
+	height: 150px;
+	z-index: 1;
+	position: absolute;
+	margin-top: 80px;
+	margin-left: 100px;
+	top: 1238px;
+}
+.element5 {
+	background-color: #fff;
+	float: left;
+	width: 200px;
+	height: 200px;
+	left: 68%;
+	height: 150px;
+	z-index: 1;
+	position: absolute;
+	margin-top: 269px;
+	margin-left: 21px;
+	top: 1208px;
+}
+.text-container5 {
+	background-color: #fff;
+	float: left;
+	width: 200px;
+	left: 64%;
+	height: 150px;
+	z-index: 1;
+	position: absolute;
+	margin-top: 80px;
+	margin-left: 100px;
+	top: 1593px;
+}
+.element6 {
+	background-color: #fff;
+	float: left;
+	width: 200px;
+	height: 200px;
+	left: 16%;
+	height: 150px;
+	z-index: 1;
+	position: absolute;
+	margin-top: 269px;
+	margin-left: 21px;
+	top: 1560px;
+}
+.text-container6 {
+	background-color: #fff;
+	float: left;
+	width: 288px;
+	left: 10%;
+	height: 150px;
+	z-index: 1;
+	position: absolute;
+	margin-top: 380px;
+	margin-left: 100px;
+	top: 1618px;
+}
+.number1 {
+	position: absolute;
+	color: #2aecae;
+	font-family: "jungkaregular", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-size: 4.0em;
+	font-weight: lighter;
+	margin-top: 0px;
+	margin-left: 0px;
+	left: -20%;
+	top: -15px;
+	z-index: 1;
+	background-color: #FFFFFF;
+	height: 50px;
+	vertical-align: top;
+	padding-left: 5px;
+}
+.number2 {
+	position: absolute;
+	color: #2aecae;
+	font-family: "jungkaregular", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-size: 4.0em;
+	text-align: left;
+	font-weight: lighter;
+	margin-top: 0px;
+	margin-left: 50px;
+	left: -51%;
+	top: -20px;
+	z-index: 1;
+	background-color: #ffffff;
+	padding-left: 17px;
+	padding-top: 6px;
+}
+.number3 {
+	position: absolute;
+	color: #2aecae;
+	font-family: "jungkaregular", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-size: 4.0em;
+	text-align: left;
+	font-weight: lighter;
+	margin-top: 0px;
+	margin-left: 50px;
+	left: -33%;
+	z-index: 1;
+	background-color: #ffffff;
+	top: -12px;
+}
+.number4 {
+	position: absolute;
+	color: #2aecae;
+	font-family: "jungkaregular", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-size: 4.0em;
+	text-align: left;
+	font-weight: lighter;
+	margin-top: 0px;
+	margin-left: 0px;
+	left: -17%;
+	z-index: 1;
+	background-color: #ffffff;
+	top: -11px;
+}
+.number5 {
+	position: absolute;
+	color: #2aecae;
+	font-family: "jungkaregular", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-size: 4.0em;
+	text-align: left;
+	font-weight: lighter;
+	margin-top: 0px;
+	margin-left: 0px;
+	left: -27%;
+	z-index: 1;
+	top: -14px;
+	background-color: #ffffff;
+}
+.number6 {
+	position: absolute;
+	color: #2aecae;
+	font-family: "jungkaregular", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-size: 4.0em;
+	text-align: left;
+	font-weight: lighter;
+	margin-top: 0px;
+	margin-left: -10px;
+	left: -16%;
+	z-index: 1;
+	background-color: #ffffff;
+	top: -15px;
+}
+
+.element_title{
+	color: #32313c;
+	font-family: "jungkaregular", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-size: 1.5em;
+	text-align: left;
+	font-weight:500;
+	margin-bottom: 10px;
+	vertical-align: top;
+}
+.element_text{
+	font-family: "jungkaregular", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-size: 1em;
+	text-align: left;
+	color: #32313c;
+	text-align: left;
+	font-weight: lighter;
+	line-height: 23px;
+}
+
+
+
+
+.hidden {
+	display: none;
 }

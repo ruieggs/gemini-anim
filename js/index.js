@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded', function(){
 
 // ANIMATION
 window.addEventListener("scroll", function(e) {
-    wrappedElement.reveal([0.4, 1], [0, 1],false);
+    wrappedElement.reveal([0.3, 1], [-0.2, 1],false);
 });
 
 window.onbeforeunload = function(){ window.scrollTo(0,0); }
